@@ -1,0 +1,119 @@
+body {
+    padding-left: 25px;
+    background-color: grey;
+
+
+}
+
+
+#A4 {
+    background-color: lightcyan;
+    font-family: monospace;
+
+    color: black;
+    padding: 20px;
+    margin: 40px auto;
+    width: 1000px;
+    height: 1600px;
+    transition: background-color 0.5s, color 0.5s;
+    border: 5px solid black;
+    box-shadow: 0 0 10px;
+    font-size: 20px;
+    line-height: 1.12;
+
+}
+
+
+#A4.dark {
+    background-color: black;
+    color:  rgb(17, 82, 17);
+}
+
+
+
+.image-box {
+    display: inline-flex;
+    width: 230px;
+    height: 210px;
+    margin-left: 740px;
+    margin-top: -260px;
+    background-color: rgb(103, 191, 231);
+    border-radius: 50px;
+    border-style: dotted;
+
+    border-color:  lightskyblue;
+
+}
+
+.image-box img {
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 260px;
+    height: 240px;
+
+}
+
+.image-box img:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 0 6px 18px;
+
+}
+
+.EDUCATION ul {
+    display: block;
+    padding: 0px;
+    list-style: none;
+
+
+}
+
+.hovereffect {
+
+    transition: width 0.3s ease 0s;
+
+}
+
+.hovereffect:hover span,
+.hovereffect:hover p {
+
+    background: lightcoral;
+    transition: 0.3s;
+    box-shadow: 0 6px 18px;
+
+}
+
+.details {
+    display: inline-flex;
+}
+
+
+.one {
+    display: inline-flex;
+    width: 1000px;
+    height: 1555px;
+
+
+}
+
+.two {
+    display: inline-block;
+    width: 900px;
+    height: 1180px;
+
+
+}
+
+
+.indentation {
+    padding-left: 20px;
+}
+
+.scrollbutton {
+
+    padding-left: 1080px;
+    margin-top: -410px;
+}
+
+.themebutton {
+    padding-left: 1080px;
+    margin-top: -1650px;
+}
